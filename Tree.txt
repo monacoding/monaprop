@@ -1,0 +1,13 @@
+my_refprop/
+├── main.py                 # 실행 파일
+├── substances/             # 물질 관련 정의 모듈
+│   ├── substance.py        # Substance 클래스 정의
+│   └── registry.py         # 등록된 물질들을 관리하는 트리/딕셔너리
+├── eos/                    # 상태방정식 모듈
+│   ├── base_eos.py         # 공통 기반 클래스
+│   ├── ideal_gas.py        # 이상기체 EOS
+│   └── peng_robinson.py    # Peng-Robinson EOS
+├── utils/
+│   ├── solver.py           # 방정식 풀이 도구 (루트 찾기 등)
+│   └── constants.py        # 상수(R값 등)
+└── tests/                  # 단위 테스트
